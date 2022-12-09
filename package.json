@@ -2,13 +2,13 @@
   "name": "social-nework-api",
   "version": "1.0.1",
   "description": "Social Nework API",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index",
-    "seed": "node utils/seed"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon index"
   },
-  "dependencies": {
+    "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^6.0.13"
   },
